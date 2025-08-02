@@ -1,0 +1,44 @@
+1.What is Control Flow
+2. Types of Condition Apply
+    -  If Statements
+    -  Else Statements
+    -  Elif Statements/ Ladder
+    -  Nested If else
+3. Use Case of If else
+    - User Authentication
+    - Form Validation
+    - Payment Processing
+    - Data Filtering
+    - Weather Forecasting
+    - Inventory Management
+    - Personalization
+4. What is Loop?
+5. Types of Loop
+    - for Loop in Python (Entry Control Loop)
+    - while loop in python  (Entry Control Loop)
+    - do while loop (X) (Exit Control Loop)
+    - break statement
+    - continue statement
+6. Use case of Loop
+    - Data Processing
+    - Reports
+    - Automating task
+    - User Interfaces
+    - Loop Over List,Map,Set
+7. Logical Operator in Python
+    - and
+    - or
+    - not
+8. Comparison Operators
+    - age>18
+    - age<18
+    - age==18
+    - age<=18
+    - age>=18
+    - age!=18
+9. Use case of Operators
+    - Condition
+    - loop
+    - searching
+    - sorting
+10. SMS Shooter -> Each 5Second Internal
