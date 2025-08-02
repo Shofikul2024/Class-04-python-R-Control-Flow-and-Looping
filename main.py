@@ -1,4 +1,6 @@
-"""
+# conditional state ment if  else
+
+'''
 marks=66
 if marks>=80 and marks<=100:
     print("A+")
@@ -20,6 +22,12 @@ elif marks>=33 and marks<40:
 
 else:
     print("F")
+'''
+
+
+
+"""
+
 
 
 age=30
@@ -90,7 +98,9 @@ if not age>18:
     print("Not Welcome")    
 """
 
-#
+
+
+
 girls = ["Katrina", "Carina", "Jarina"]  # 3
 girls_papa = ["KatrinaBap", "CarinaBap", "JarinaBap", "SakhinaBap"]  # 3X4=12
 # 0,1,2,3---->
