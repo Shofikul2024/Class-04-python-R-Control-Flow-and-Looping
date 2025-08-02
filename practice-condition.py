@@ -1,5 +1,9 @@
 #
+
+
 # conditional statement if
+
+'''
 marks=80
 if marks>=88 and marks<=100:
     print('A+')
@@ -19,3 +23,21 @@ elif marks>=33 and marks<=40:
 
 else:
     print('F')
+'''
+
+
+
+
+
+age=30
+permission=False
+if age >=20:
+    if permission==True:
+        print('you ncan join with us ')
+    else:
+        print('you are   under aged')
+
+
+
+
+
