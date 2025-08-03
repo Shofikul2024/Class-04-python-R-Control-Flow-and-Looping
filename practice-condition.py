@@ -31,17 +31,9 @@ elif marks>=33 and marks<=40:
 else:
     print('F')
 '''
+from itertools import permutations
 
-
-
-
-
-
-
-
-
-
-
+from main import girls
 
 '''    Use Case of If else
     - User Authentication
@@ -103,3 +95,68 @@ while chokkor<len(girls):
 
 
 '''
+
+
+
+#
+# girls=["Katrina","Carina","Jarina","Sakhina"]
+# # 0,1,2,3---->
+# for gf in girls:
+#     if gf=="Jarina":
+#         break
+#     print(gf)
+
+
+
+
+
+
+
+# loop
+
+
+'''
+
+girls=["Katrina","Carina","Jarina","Sakhina"]
+for gf in girls:
+    if gf=="Jarina":
+        break
+    print(gf)
+
+'''
+
+
+# continue
+
+#
+# girls=["Katrina","Carina","Jarina","Sakhina"]
+# # 0,1,2,3---->
+# for gf in girls:
+#     if gf=="Carina":
+#         continue
+#     print(gf)
+
+#
+# age =19
+# permission=True
+#
+# if age>=18 and permission==True:
+#     print('welcome you are voter ')
+
+
+
+
+#
+#
+# age =19
+# permission=True
+#
+# if age>=18 and permission==True:
+#     print('not voter ')
+#
+#
+
+
+
+
+girls=["Katrina", "Carina", "Jarina"]

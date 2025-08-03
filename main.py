@@ -101,7 +101,11 @@ if not age>18:
 
 
 
-girls = ["Katrina", "Carina", "Jarina"]  # 3
+
+
+
+
+girls = ["Katrina", "Carina", "Jarina"]
 girls_papa = ["KatrinaBap", "CarinaBap", "JarinaBap", "SakhinaBap"]  # 3X4=12
 # 0,1,2,3---->
 for gf in girls:
