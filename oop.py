@@ -54,23 +54,77 @@
 
 
 
+#
+# class Myclss:          #  clss   er    nam ta  capital letter  a   ditye  hoy
+#     x=10
+#     y=20
+#     #z=100
+#
+#     def __init__(self,zValue,xValue):
+#         self.z=zValue
+#         self.x=xValue
+#
+#     def addTwo(self):
+#         print(self.x+self.y+self.z)
+#
+#
+# obj =Myclss(100 , 5)
+# obj.addTwo()
+#
+#
+#
+#
 
-class Myclss:          #  clss   er    nam ta  capital letter  a   ditye  hoy
+#static method
+#
+# class Myclss:          #  clss   er    nam ta  capital letter  a   ditye  hoy
+#     x=10
+#     y=20
+#     @staticmethod
+#     def addTwo():
+#         z=Myclss.x+Myclss.y
+#         print(z)
+# Myclss.addTwo()
+#
+#
+#
+#
+
+
+
+
+
+
+#static  variable
+#
+# class Myclass:
+#     x=10
+#     y=20
+#     @staticmethod
+#     def addTwo():
+#         z=Myclass.x+Myclass.y
+#         print(z)
+#
+# Myclass.addTwo()
+#
+
+
+
+
+
+
+#  static variable
+class Myclas:
     x=10
     y=20
-    #z=100
-
-    def __init__(self,zValue,xValue):
-        self.z=zValue
-        self.x=xValue
-
-    def addTwo(self):
-        print(self.x+self.y+self.z)
-
-
-obj =Myclss(100 , 5)
-obj.addTwo()
-
-
+    @staticmethod
+    def addTwo():
+        z=Myclas.x+Myclas.y
+        print(z)
+print(Myclas.x)
+print(Myclas.y)
+obj=Myclas()
+print(obj.x)
+print(obj.y)
 
 
