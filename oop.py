@@ -28,30 +28,48 @@
 # print(obj1.sum)
 
 
+#
+# class Myclss:          #  clss   er    nam ta  capital letter  a   ditye  hoy
+#     x=10
+#     y=20
+#     z=30
+#
+#     def addTwo(self,a,b):
+#         sum=self.x+self.y+self.z+a+b
+#         print(sum)
+#
+#     def addNew(self):
+#         self.addTwo(5,6)
+#
+#
+# obj =Myclss()
+# obj.addTwo(30,50)
+# obj.addNew()
+
+
+
+
+
+
+
+
+
 
 class Myclss:          #  clss   er    nam ta  capital letter  a   ditye  hoy
     x=10
     y=20
-    z=30
+    #z=100
 
-    def addTwo(self,a,b):
-        sum=self.x+self.y+self.z+a+b
-        print(sum)
+    def __init__(self,zValue,xValue):
+        self.z=zValue
+        self.x=xValue
 
-    def addNew(self):
-        self.addTwo(5,6)
-
-
-obj =Myclss()
-obj.addTwo(30,50)
-obj.addNew()
+    def addTwo(self):
+        print(self.x+self.y+self.z)
 
 
-
-
-
-
-
+obj =Myclss(100 , 5)
+obj.addTwo()
 
 
 
