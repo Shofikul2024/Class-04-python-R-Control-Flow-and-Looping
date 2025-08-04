@@ -114,17 +114,63 @@
 
 
 #  static variable
-class Myclas:
-    x=10
-    y=20
-    @staticmethod
-    def addTwo():
-        z=Myclas.x+Myclas.y
-        print(z)
-print(Myclas.x)
-print(Myclas.y)
-obj=Myclas()
-print(obj.x)
-print(obj.y)
+# class Myclas:
+#     x=10
+#     y=20
+#     @staticmethod
+#     def addTwo():
+#         z=Myclas.x+Myclas.y
+#         print(z)
+# print(Myclas.x)
+# print(Myclas.y)
+# obj=Myclas()
+# print(obj.x)
+# print(obj.y)
+
+
+
+
+
+
+#  only  static variable
+# class Myclas:
+#     x = 10
+#     y = 20
+#
+#
+# print(Myclas.x)
+# print(Myclas.y)
+# obj = Myclas()
+# print(obj.x)
+# print(obj.y)
+
+
+#  single   inheritance
+
+class Father:
+    x = 10
+    y = 30
+
+    def add(self):
+        print(self.x + self.y)
+
+    def mul(self):
+        print(self.x * self.y)
+
+class Son(Father):
+    pass
+
+obj = Son()
+obj.add()      # Output: 40
+obj.mul()      # Output: 300
+print(obj.x)   # Output: 10
+print(obj.y)   # Output: 30
+
+
+
+
+
+
+
 
 
